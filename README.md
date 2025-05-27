@@ -1,4 +1,4 @@
-**State Housing and Income Analysis: ETL, Automation & Visualization**
+#State Housing and Income Analysis: ETL, Automation & Visualization
 
 **Overview**
 
@@ -68,4 +68,57 @@ to produce a comprehensive output matching the "Analysis of States" Google Sheet
 and affordability ratios, and generates natural-language blurbs for each region. Results are saved as both CSV and SQLite database files, and the workflow is fully automated 
 and scheduled using Airflow to ensure reliability and reproducibility. An accompanying Jupyter notebook provides additional analysis and visualizations, offering deeper 
 insights into trends and disparities across states.
+
+
+
+How to Run the Code
+Clone the Repository
+
+bash
+git clone https://github.com/Arshad-1907/state-analysis-etl.git
+cd state-analysis-etl
+Set Up the Python Environment
+
+Create and activate a virtual environment:
+
+bash
+python3 -m venv .venv
+source .venv/bin/activate   # On Mac/Linux
+.venv\Scripts\activate    # On Windows
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the ETL Pipeline
+
+From the project root, run the scripts in order:
+
+bash
+python etl/extract.py
+python etl/transform.py
+python etl/load.py
+This will read the raw data, process it, and save the final output files to data/output/output.csv and data/output/state_analysis.db.
+
+Run the Pipeline with Airflow
+
+If you want to use Airflow for automation, place etl_pipeline.py in your Airflow dags/ folder, start the Airflow scheduler and webserver, and trigger the DAG from the Airflow UI.
+
+Explore the Analysis and Visualizations
+
+Start Jupyter Notebook:
+bash
+jupyter notebook
+Open analysis_and_visualization.ipynb and run the notebook to see exploratory analysis and visualizations of the processed data.
+
+Order of Execution:
+
+Extract raw data (extract.py)
+
+Transform and merge data (transform.py)
+
+Load results to database/CSV (load.py)
+
+Explore and visualize results (analysis_and_visualization.ipynb)
+
+
 
