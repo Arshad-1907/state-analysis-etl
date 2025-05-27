@@ -61,35 +61,6 @@ Boxplots for affordability ratio (outlier detection)
 Equity analysis: Median income by race (from race/ethnicity tab)
 All code and visualizations are available in analysis_and_visualization.ipynb.
 
-STATE_ANALYSIS/
-│
-├── README.md                       
-├── requirements.txt                 # Python dependencies
-├── etl_pipeline.py                  # Airflow DAG definition
-├── analysis_and_visualization.ipynb # (Jupyter notebook)
-│
-├── etl/                             # ETL scripts
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│   └── __pycache__/
-│
-├── data/
-│   ├── raw/                         # Raw input data
-│   │   ├── CENSUS_MHI_STATE.csv
-│   │   ├── CENSUS_POPULATION_STATE.tsv
-│   │   ├── KEYS.csv
-│   │   └── REDFIN_MEDIAN_SALE_PRICE.csv
-│   ├── staged/                      # Staged/intermediate files
-│   │   ├── income.csv
-│   │   ├── population.csv
-│   │   └── sale_price.csv
-│   └── output/                      # Final outputs
-│       ├── output.csv
-│       └── state_analysis.db
-│
-├── dags/                            # Airflow DAGs
-│   └── etl_pipeline.py
 
 This project automates the extraction, transformation, and loading (ETL) of state-level housing and income data using Python and Airflow. 
 Raw data from multiple sources—including Census population, household income, and Redfin median sale prices—is ingested, cleaned, merged, and enriched 
