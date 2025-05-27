@@ -1,0 +1,60 @@
+[2025-05-25T19:33:41.397-0500] {processor.py:157} INFO - Started process (PID=85342) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:33:41.398-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:33:41.398-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.398-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:33:41.430-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:33:41.702-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.702-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2025-05-25T19:33:41.704-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.704-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2025-05-25T19:33:41.706-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.706-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2025-05-25T19:33:41.709-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.709-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:33:41.711-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.711-0500] {dag.py:2763} INFO - Creating ORM DAG for example_xcom
+[2025-05-25T19:33:41.713-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:41.713-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:33:41.718-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.322 seconds
+[2025-05-25T19:35:02.616-0500] {processor.py:157} INFO - Started process (PID=85414) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:02.617-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:35:02.617-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:02.617-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:02.647-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:02.897-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:02.897-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:35:02.902-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:02.902-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:35:02.907-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.292 seconds
+[2025-05-25T19:35:51.009-0500] {processor.py:157} INFO - Started process (PID=85449) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:51.011-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:35:51.012-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:51.012-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:51.046-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:35:51.297-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:51.297-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:35:51.302-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:51.302-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:35:51.308-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.300 seconds
+[2025-05-25T19:37:19.435-0500] {processor.py:157} INFO - Started process (PID=85519) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:37:19.437-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:37:19.437-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:19.437-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:37:19.469-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:37:19.750-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:19.749-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:37:19.755-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:19.755-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:37:19.761-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.327 seconds
+[2025-05-25T19:38:06.106-0500] {processor.py:157} INFO - Started process (PID=85557) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:06.107-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:38:06.108-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:06.107-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:06.141-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:06.466-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:06.466-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:38:06.473-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:06.472-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:38:06.479-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.374 seconds
+[2025-05-25T19:38:54.550-0500] {processor.py:157} INFO - Started process (PID=85600) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:54.552-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:38:54.552-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:54.552-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:54.595-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:38:54.956-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:54.955-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:38:54.963-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:54.963-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:38:54.970-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.421 seconds
+[2025-05-25T19:39:43.301-0500] {processor.py:157} INFO - Started process (PID=85634) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:39:43.303-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:39:43.303-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:43.303-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:39:43.335-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:39:43.604-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:43.604-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:39:43.609-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:43.609-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:39:43.615-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.314 seconds
+[2025-05-25T19:41:16.760-0500] {processor.py:157} INFO - Started process (PID=85700) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:41:16.762-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-25T19:41:16.762-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:16.762-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:41:16.792-0500] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-25T19:41:17.044-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:17.043-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:41:17.048-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:17.048-0500] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-25T19:41:17.054-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.295 seconds

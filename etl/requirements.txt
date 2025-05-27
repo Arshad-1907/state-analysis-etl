@@ -1,0 +1,4 @@
+pandas
+apache-airflow==2.6.3
+sqlalchemy
+psycopg2-binary

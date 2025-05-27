@@ -1,0 +1,74 @@
+[2025-05-25T19:33:36.008-0500] {processor.py:157} INFO - Started process (PID=85339) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:33:36.009-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:33:36.010-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.010-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:33:36.036-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:33:36.311-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.311-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-05-25T19:33:36.313-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.313-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-05-25T19:33:36.315-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.315-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-05-25T19:33:36.318-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.318-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:33:36.320-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.320-0500] {dag.py:2763} INFO - Creating ORM DAG for tutorial_dag
+[2025-05-25T19:33:36.322-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:33:36.322-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:33:36.327-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.319 seconds
+[2025-05-25T19:34:57.202-0500] {processor.py:157} INFO - Started process (PID=85411) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:34:57.204-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:34:57.204-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:34:57.204-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:34:57.232-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:34:57.496-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:34:57.496-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:34:57.502-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:34:57.502-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:34:57.508-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.307 seconds
+[2025-05-25T19:35:46.124-0500] {processor.py:157} INFO - Started process (PID=85446) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:35:46.126-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:35:46.126-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:46.126-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:35:46.152-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:35:46.426-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:46.426-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:35:46.432-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:35:46.432-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:35:46.438-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.315 seconds
+[2025-05-25T19:36:32.064-0500] {processor.py:157} INFO - Started process (PID=85476) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:36:32.069-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:36:32.070-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:36:32.070-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:36:32.130-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:36:32.498-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:36:32.498-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:36:32.511-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:36:32.511-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:36:32.532-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.469 seconds
+[2025-05-25T19:37:16.070-0500] {processor.py:157} INFO - Started process (PID=85516) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:37:16.072-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:37:16.072-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:16.072-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:37:16.104-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:37:16.409-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:16.409-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:37:16.416-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:37:16.416-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:37:16.423-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.353 seconds
+[2025-05-25T19:38:00.414-0500] {processor.py:157} INFO - Started process (PID=85553) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:00.416-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:38:00.416-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:00.416-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:00.440-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:00.696-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:00.696-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:38:00.701-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:00.701-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:38:00.707-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.294 seconds
+[2025-05-25T19:38:49.794-0500] {processor.py:157} INFO - Started process (PID=85593) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:49.796-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:38:49.796-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:49.796-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:49.822-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:38:50.088-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:50.088-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:38:50.094-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:38:50.093-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:38:50.099-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.306 seconds
+[2025-05-25T19:39:38.826-0500] {processor.py:157} INFO - Started process (PID=85631) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:39:38.828-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:39:38.828-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:38.828-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:39:38.852-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:39:39.102-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:39.101-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:39:39.107-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:39:39.107-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:39:39.113-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.287 seconds
+[2025-05-25T19:40:24.181-0500] {processor.py:157} INFO - Started process (PID=85661) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:40:24.183-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:40:24.183-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:40:24.183-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:40:24.207-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:40:24.455-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:40:24.455-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:40:24.460-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:40:24.460-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:40:24.466-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.286 seconds
+[2025-05-25T19:41:11.353-0500] {processor.py:157} INFO - Started process (PID=85694) to work on /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:41:11.355-0500] {processor.py:826} INFO - Processing file /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-25T19:41:11.355-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:11.355-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:41:11.379-0500] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-25T19:41:11.633-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:11.633-0500] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-05-25T19:41:11.639-0500] {logging_mixin.py:150} INFO - [2025-05-25T19:41:11.639-0500] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-25T19:41:11.645-0500] {processor.py:179} INFO - Processing /Users/afsaruddinmohammed/state_analysis/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.292 seconds
